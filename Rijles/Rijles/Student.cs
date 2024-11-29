@@ -12,7 +12,7 @@ namespace Rijles
         internal int intleeftijd;
         internal LesPakket lesPakket;
         internal RijLeraar leraar;
-        internal TheorieTest theorieTest
+        internal TheorieTest theorieTest;
         internal RijTest RijTest;
     }
 }
