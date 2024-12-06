@@ -37,15 +37,42 @@
                 auto = auto1,
                 rijLeraar = rijLeraar,
 
-                tijd = 1130
+                tijd = 1130,
+
+            };
+            LesPakket lesPakket = new LesPakket()
+            {
+                urenGekocht = 30,
+                urenVerbruikt = 30,
+                examenPogingen = 30,
+                automaat = true
+            };
+            TheorieTest theorieTest = new TheorieTest()
+            {
+                aantalFouten = 3,
+                gehaald = true
+            };
+            RijTest rijTest = new RijTest()
+            {
+                gehaald = false,
             };
 
             Student student = new Student()
             {
                 naam = "Gitcommiter",
-                leeftijd = 64,
-                lesPakket = lespakket,
+                intleeftijd = 64,
+                lesPakket = lesPakket,
+                theorieTest = theorieTest,
+                RijTest = rijTest
+            };
 
+            Student Student2 = new Student()
+            {
+                naam = "Shandel",
+                intleeftijd = 45,
+                lesPakket = lesPakket,
+                theorieTest = theorieTest,
+                RijTest = rijTest
             };
             
 
